@@ -40,10 +40,13 @@ console.log('Calling the function multiply Three with 5, 2, and 3:', multiplyThr
 //    or greater than zero, and false otherwise
 function isPositive( number ) {
   if ( number > 0 ){
-    return;
+    return true;
+  } else {
+    return false;
   }
-    return;
 }
+console.log('Testing isPostive function with number 5:', isPositive(5));
+
 // Call the function to test each outcome (true & false)
 // Write a separate console.log statement for each outcome
 console.log( 'isPositive - should say true', isPositive(3) );
@@ -85,7 +88,6 @@ function sumAll( ) {
 // 10. Function to return a new array of all positive (greater than zero)
 //     numbers contained in an input array. If there are no positive numbers
 //     return an empty array. Note: The input array should not change.
-
 
 
 // 11. Pick a problem from Edabit(https://edabit.com/) or
