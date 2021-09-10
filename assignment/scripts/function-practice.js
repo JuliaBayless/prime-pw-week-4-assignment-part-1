@@ -57,15 +57,27 @@ console.log( 'isPositive - should say false', isPositive(-3) );
 // 6. Function to return the _last_ item in an array. If the
 //    array is empty, return `undefined`.
 function getLast( array ) {
-
+  if( array === 0) {
+  return 'undefined';
+  }
 }
+console.log(getLast(0));
 
 // 7. Function to find a value in an array. Return true if the
 //    value is found and false otherwise. Use a loop;
 //    DO NOT use Array.includes, Array.indexOf, or Array.find
-function find( value, array ){
 
-}
+function find( value, array ){
+  for(let item of array){
+    if (item === value){
+    return true;
+  } else {
+      return false;
+    }
+  }
+};
+let numbers = [1, 2, 3, 4, 5]
+console.log(find ( 20, numbers ));// needs work! continues to return false even when vlue is true :()
 
 // ----------------------
 // Stretch Goals
