@@ -76,9 +76,9 @@ function find( value, array ){
     }
   }
 };
-let numbers = [1, 2, 3, 4, 5]
-console.log(find ( 20, numbers ));// needs work! continues to return false even when vlue is true :()
-
+let fruits = ['apple', 'kiwi', 'mango']
+console.log('looking for strawberry in array, should return false', find ( 'strawberry', fruits ));
+console.log('looking for apple in array, should return true', find ( 'apple', fruits ));
 // ----------------------
 // Stretch Goals
 // ----------------------
