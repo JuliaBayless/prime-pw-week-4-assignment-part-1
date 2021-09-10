@@ -15,10 +15,12 @@ console.log('I think this is what question 1 is asking for -',hello())
 // 2. Function to return an personalized hello, using the `name` argument.
 //    for example 'Hello, Jo!', or 'Hello, Stacy!'
 function helloName( name ) {
+  console.log('Hello ' + name + '!');
   return;
 }
 // Remember to call the function to test
-
+console.log('Calling helloName function:');
+helloName('Prime Academy');
 
 // 3. Function to add two numbers together & return the result
 function addNumbers( firstNumber ) {
