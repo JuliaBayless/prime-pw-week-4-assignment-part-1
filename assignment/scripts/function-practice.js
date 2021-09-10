@@ -22,17 +22,19 @@ function helloName( name ) {
 console.log('Calling helloName function:');
 helloName('Prime Academy');
 
+
 // 3. Function to add two numbers together & return the result
-function addNumbers( firstNumber ) {
+function addNumbers( firstNumber, secondNumber ) {
+  return firstNumber + secondNumber;
   // return firstNumber + secondNumber;
 }
-
+console.log('checking the addNumbers fucntion with 5 and 6:',addNumbers(5,6));
 
 // 4. Function to multiply three numbers & return the result
-function multiplyThree( ){
-
+function multiplyThree(num1, num2, num3 ){
+  return num1 * num2 * num3;
 }
-
+console.log('Calling the function multiply Three with 5, 2, and 3:', multiplyThree(5,2,3))
 
 // 5. Function that will return true if a number is positive,
 //    or greater than zero, and false otherwise
